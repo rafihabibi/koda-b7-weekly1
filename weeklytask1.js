@@ -9,4 +9,5 @@ function cekPalindrom(kata) {
     }
 }
 let hasil = cekPalindrom("Malam");
-console.log(`Aapakah ini ini Palindrom:${hasil}`);
+console.log(`Aapakah ini Palindrom:${hasil}`);
+
