@@ -1,12 +1,12 @@
 function cekPalindrom(kata) {
-    let kataKecil = kata.toLowerCase();
-    let balikKata = kata.split('').reverse().join('');
+    let teksKecil = kata.toLowerCase();
+    let kataDibalik = teksKecil.split('').reverse().join('');
 
-    if(kataKecil === balikKata){
-        return true;
+    if(kataDibalik === teksKecil) {
+        return "Palindrom";
     } else {
-        return  false;
+        return "Bukan Palindrom";
     }
 }
-
-console.log(cekPalindrom("farah"));
+let hasil = cekPalindrom("Malam");
+console.log(`Aapakah ini ini Palindrom:${hasil}`);
